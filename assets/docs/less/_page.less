@@ -1,0 +1,47 @@
+.maincontent {
+	margin-bottom: @site-footer-height;
+
+	.content {
+		.make-md-column(10);
+		.make-md-column-offset(1);
+		margin: 15px -15px;
+	}
+
+	.description {
+		border-top: 1px solid @theme-color;
+		//border-bottom: 1px solid @theme-color;
+		padding: 10px 0;
+		padding: 15px;
+	}
+	
+	.specs {
+		.content();
+		position: relative;
+		top: 15px;
+		margin-bottom: 10px;
+		padding: 15px 15px 10px;
+		//border-top: 1px solid @theme-color;
+		.text-muted;
+		font-size: 80%;
+		clear: both;
+	}
+
+	.media {
+		.make-md-column(8);
+		.make-md-column-offset(2);
+	}
+
+	.projects {
+		position: relative;
+		top: 50px;
+		padding-top: 15px;
+		border-top: 1px solid @gray-lighter;
+		clear: both;
+		.make-row;
+	}
+}
+
+.image {
+	margin-bottom: 15px;
+	clear: both;
+}

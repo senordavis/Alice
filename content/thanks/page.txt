@@ -1,0 +1,5 @@
+title: Thanks
+-
+content:
+
+Your message has been successfully sent. We will contact you as soon as possible!

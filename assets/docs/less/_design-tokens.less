@@ -1,0 +1,54 @@
+// Media Query Shortcuts
+@xs:  ~"(min-width: 375px)";
+@xsmax:  ~"(max-width: 375px)";
+@small:  ~"(min-width: 768px)";
+@medium: ~"(min-width: 992px)";
+@large:  ~"(min-width: 1200px)";
+
+// Easing for transistions 
+.ease (@time: 0.5s) {
+	-webkit-transition: all @time ease-in-out;
+	-moz-transition: all @time ease-in-out;
+	-o-transition: all @time ease-in-out;
+	transition: all @time ease-in-out;
+}
+
+// Global Variables for theme specific areas
+@site-logo: ~"url(../../../content/LOGO.svg)";
+@site-logo-base-width: 200px;
+@site-logo-base-height: 80px;
+@site-logo-width: 540px;
+@site-logo-height: 252px;
+
+@menu-btn-width: 75px;
+@menu-btn-position: absolute;
+@menu-btn-zindex: 50000000;
+@menu-btn-menu-icon-width: 37px;
+@menu-btn-search-icon-width: 36px;
+@menu-btn-search-icon-border: 1px solid @gray-light;
+
+@overlay-width: 320px;
+
+@site-masthead-height: 80px;
+@site-footer-height: 150px;
+
+@site-footer-padding-top: 50px;
+@site-footer-padding-bottom: 50px;
+
+// Global Tokens
+@font-size-small: @font-size-normal * 0.75;
+@font-size-normal: 16px;
+@font-size-medium: @font-size-normal * 1.25; //20px
+@font-size-large: @font-size-normal * 1.75; //28px
+@font-size-xl: @font-size-normal * 2; //32px
+
+@font-size-primary-heading: @font-size-normal * 3; //48px
+@font-size-secondary-heading: @font-size-large; 
+@font-size-tertiary-heading: @font-size-medium;
+
+@body-line-height: 28px;
+
+@menu-font: @trueno;
+@menu-font-weight: 300;
+@menu-color: @gray-dark;
+@menu-hover-color: black;

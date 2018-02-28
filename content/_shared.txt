@@ -1,0 +1,117 @@
+<!-- AUTHOR DETAILS -->
+-
+site-name: @site-author's Portfolio
+-
+site-author: Alice Liddel
+-
+site-author-first-name: Alice
+-
+site-author-email: alice@example.com
+-
+
+
+
+<!-- SITE DETAILS -->
+-
+site-date: @current_year
+-
+site-keywords: design, graphic design, illustration, web design, web, HTML, CSS, Illustrator, Photoshop, InDesign, Adobe Illustrator, Adobe Photoshop, Adobe InDesign, Adobe
+-
+site-description: @site-author is a designer!
+-
+
+
+
+<!-- SITE SETTINGS -->
+
+
+-
+<!--
+# HEADERS #
+CHOOSE THE SITE HEADER
+To chose a header write "active" after the header that you wish to use.
+Remember to only write "active" after ONE of them.
+Otherwise you will have multiple headers show upon the page.
+
+CURRENTLY THERE IS ONLY ONE HEADER DESIGN.
+MORE WILL BE ADDED IN THE FUTURE - 111517
+
+-->
+-
+header-1: active 
+-
+
+<!--
+# INTRO #
+CHOOSE THE HOMEPAGE INTRO
+To chose a style for the homepage intro
+change the number at the end of
+the variable below.
+
+CURRENTLY THERE ARE ONLY TWO LIST DESIGNS.
+MORE WILL BE ADDED IN THE FUTURE 111517
+CHOICES: 1, 2
+-->
+-
+feature: feature-1
+-
+
+<!--
+# PROJECT LIST #
+CHOOSE THE STYLE OF PROJECT LIST
+To chose a style for the project list
+change the number at the end of
+the variable below.
+
+CURRENTLY THERE ARE ONLY TWO LIST DESIGNS.
+MORE WILL BE ADDED IN THE FUTURE 111517
+CHOICES: 1, 2
+-->
+-
+project-list: project-list-2
+-
+
+
+<!--
+# FOOTERS #
+CHOOSE THE SITE FOOTER
+To chose a footer write "active" after the footer that you wish to use.
+Remember to only write "active" after ONE of them.
+Otherwise you will have multiple footers show upon the page.
+-->
+-
+footer-1:  active
+-
+footer-2: 
+-
+
+
+
+<!--
+# ANALYTICS #
+ADD YOUR GA TRACKING ID
+For tracking purposes add your Google Analytics tracking ID.
+-->
+-
+google-analytics: 
+-
+
+
+
+<!--
+# SOCIAL #
+To have social media links appear in the footer,
+add your username after the service you want to use.
+-->
+-
+twitter: senordavis
+-
+behance: 
+-
+linkedin: senordavis
+-
+facebook: senormdavis
+-
+instagram: senordavis
+-
+dribbble: senordavis

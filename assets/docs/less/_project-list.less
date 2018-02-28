@@ -1,0 +1,174 @@
+.project-list-1 {
+
+	
+	article {
+		.make-sm-column(6);
+		.make-md-column(4);
+		.make-lg-column(4);
+		height: 270px;
+		max-height: 270px;
+		overflow: hidden;
+		padding: 15px;
+		margin-bottom: 15px;
+		
+		a {
+			color: white;
+			display: block;
+			padding-top: 270px;
+			.ease;}
+		
+		a:hover {
+			padding: 0;
+			.ease;
+		}
+		
+		img {
+			width: 100%;
+			height: auto;
+			min-height: 250px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			padding: 15px;
+			object-fit: cover;
+		}
+		
+		.articleContent {
+		background-color: @alphablack;
+		min-height: 270px;
+		max-height: 270px;
+		width: 100%;
+		text-align: center;
+		padding: 30px;
+		position: relative;
+		z-index: 2;
+		
+		.title {
+			border-bottom: 1px solid white;
+			padding-bottom: 10px;
+			display: block;
+			color: white;
+			font-size: 18px;
+			font-weight: 300;
+			margin-bottom: 10px;
+			letter-spacing: 2px;
+			.heading-font;
+			text-transform: uppercase;
+		}
+		
+		.description {
+			font-size: 90%;
+			line-height: 115%;
+		}
+		
+		.btn-theme {
+			.btn-default();
+			border-radius: 50px;
+			min-width: 80px;
+			background-color: transparent;
+			color: white;
+			border-color: white;			
+		}
+
+		
+	}
+		
+
+	}
+	
+} //end project list
+
+
+.project-list-2 {
+	
+		
+		article {
+			.make-sm-column(6);
+			.make-md-column(4);
+			.make-lg-column(4);
+			//height: 270px;
+			//max-height: 270px;
+			//overflow: hidden;
+			padding: 0px;
+			margin-bottom: 15px;	
+			
+			@media @small {
+				padding:15px;
+			}
+			
+			a {
+				//color: white;
+				display: block;
+				//padding-top: 270px;
+				.ease;}
+
+			a:hover {
+				img {opacity: .5;}
+				.ease;
+			}
+			
+			
+			img {
+				width: 50%;
+				@media @small {width: 100%;}
+				height: auto;
+				min-height: 250px;
+				position: absolute;
+				top: 0;
+				//left: 0;
+				z-index: 1;
+				padding: 15px;
+				object-fit: cover;
+			}
+			
+			.articleContent {
+			background-color: white;
+			@media @small {background-color: transparent;}
+			min-height: 270px;
+			max-height: 270px;
+			width: 100%;
+			text-align: left;
+			padding: 15px;
+			position: relative;
+			z-index: 2;
+			top: 250px;
+			margin-bottom: 250px;	
+			
+			.title {
+				border-bottom: 1px solid white;
+				padding-bottom: 10px;
+				display: block;
+				//color: white;
+				font-size: 18px;
+				font-weight: 700;
+				margin-top:15px;
+				margin-bottom: 0px;
+				letter-spacing: 2px;
+				.heading-font;
+				text-transform: uppercase;
+			}
+			
+			.description {
+				font-size: 90%;
+				line-height: 115%;
+				color: @theme-color-40-light;
+			}
+	
+			
+		}
+			
+	
+		}
+		
+		.btn-theme {
+			.btn-default();
+			border-radius: 50px;
+			min-width: 80px;
+			background-color: @theme-color;
+			color: white;
+			border-color: @theme-color-20-dark;			
+		}
+		
+		
+	} //end project list 2

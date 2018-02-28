@@ -1,0 +1,26 @@
+<section id="work" class="container">
+<section class="@project-list">
+foreach $root do
+  if $children do
+    foreach $children[0:12] do
+    	<article class="item">
+    		<div>
+			<a href="@url">
+    				
+    				<div class="articleContent">
+    				<span class="title">@title</span>
+    				<span class="description">@short-description</span>
+    				
+    				<span class="btn btn-theme">view</span>
+    				</div>
+    				
+    				<img src="@thumb" alt="Thumnbnail image of @title">
+    			</a>
+		</div>
+    	</article>
+    endforeach
+  endif
+endforeach
+<br class="clear"/>
+</section>
+</section>

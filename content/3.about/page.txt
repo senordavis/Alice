@@ -1,0 +1,7 @@
+title: About
+-
+content: 
+Alice Pleasance Hargreaves may have inspired the children's classic Alice's Adventures in Wonderland by Lewis Carroll, when she asked him to tell her a story on a boating trip in Oxford.
+
+
+inject_body "@path/foobar.js"

@@ -1,0 +1,45 @@
+<div class="maincontent">		
+		<section id="content" class="container">
+		
+						
+			<div class="content">
+				<h1 class="page-title">@title</h1>
+			</div>
+			
+			<div class="media">
+				:media
+			</div>
+			
+			<div class="content">
+				<div class="description">@content</div>
+			</div>
+
+			<div class="specs">
+				<div class="description">
+				<h3>Made using</h3>
+				@details
+				</div>
+			</div>
+			
+			<div  class="content">
+				<div class="description">
+				<div class="col-sm-6">
+					foreach $previous_sibling do
+						<p><a href="@url">&larr; Previous project</a></p>
+					endforeach
+				</div>
+				
+				
+				<div class="col-sm-6 text-right">
+					foreach $next_sibling do
+						<p><a href="@url">Next project &rarr;</a></p>
+					endforeach
+				</div>
+				
+				</div>
+				
+			</div>
+
+		</section>
+
+</div>

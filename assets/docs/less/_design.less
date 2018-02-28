@@ -1,0 +1,53 @@
+a {
+	  color: @theme-color;
+  }
+  
+a:hover {
+	color: darken(@theme-color, 20%);
+	text-decoration: none;
+	.ease;
+}
+
+.navbar-default {
+	background-color: white;
+	border: none;
+}
+
+header {
+	height: @site-masthead-height;
+	
+	.navbar-brand {
+		
+		display: block;
+		width: 200px;
+		height: 80px;
+		margin: 20px;
+		background: url(../../../content/LOGO.svg);
+		background-repeat: no-repeat;
+		background-size: contain;
+		
+		h1 {
+			.text-hide;
+		}
+	}
+	
+	.navbar-toggle {
+		margin-top: 30px;
+	}
+}
+
+
+.category-list {
+	margin-top: 50px;
+}
+
+#work {
+	margin-bottom: 60px;
+	padding: 0;
+}
+
+
+#content {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}

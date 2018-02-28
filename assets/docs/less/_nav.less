@@ -1,0 +1,23 @@
+#mainNav {
+	background: @gray-lighter;
+	position: relative;
+	z-index: 2;
+	
+	@media @large {
+		background-color: white;
+		margin-top: 20px;
+	}
+	
+	@media @small {
+		float: right;
+	}
+	
+	li a {
+		font-size: 14px;
+		font-weight: 300;
+		margin: 0;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		.heading-font;
+	} 
+}
